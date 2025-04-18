@@ -1,9 +1,9 @@
-name: Terraform on Push to Master
+name: Terraform on Push to main
 
 on:
   push:
     branches:
-      - master
+      - main
     paths:
       - 'terraform/**'
 
@@ -35,7 +35,7 @@ jobs:
       run: terraform plan -input=false
 
     - name: Terraform Apply (auto-approved)
-      if: github.ref == 'refs/heads/master'
+      if: github.ref == 'refs/heads/main'
       run: terraform apply -auto-approve
       env:
         ARM_CLIENT_ID: ${{ secrets.ARM_CLIENT_ID }}
