@@ -21,6 +21,31 @@ resource "azurerm_subnet" "subnet" {
   address_prefixes     = ["10.0.1.0/24"]
 }
 
+# Network Security Group for VM
+resource "azurerm_network_security_group" "nsg" {
+  name                = "azure_play-nsg"
+  location            = var.location
+  resource_group_name = azurerm_resource_group.rg.name
+
+  security_rule {
+    name                       = "Allow-SSH-JIT"
+    priority                   = 1000
+    direction                  = "Inbound"
+    access                     = "Deny" # Deny SSH by default — JIT will override this
+    protocol                   = "Tcp"
+    source_port_range          = "*"
+    destination_port_range     = "22"
+    source_address_prefix      = "*"
+    destination_address_prefix = "*"
+  }
+}
+
+# NSG Association to subnet (or NIC — we'll use NIC here)
+resource "azurerm_network_interface_security_group_association" "nic_nsg" {
+  network_interface_id      = azurerm_network_interface.nic.id
+  network_security_group_id = azurerm_network_security_group.nsg.id
+}
+
 resource "azurerm_network_interface" "nic" {
   name                = "azure_play-nic"
   location            = var.location
