@@ -23,7 +23,7 @@ jobs:
         with:
           terraform_version: 1.6.0
 
-      - name: Init & Apply bootstrap
+      - name: Init & Plan & Apply bootstrap
         working-directory: .
         run: |
           terraform init
