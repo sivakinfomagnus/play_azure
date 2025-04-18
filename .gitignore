@@ -1,0 +1,56 @@
+# Ignore the Azure auth script
+azure_auth.ps1
+
+# --- Terraform files ---
+# Local Terraform state
+*.tfstate
+*.tfstate.*
+
+# Terraform crash logs
+crash.log
+crash.*.log
+
+# Terraform plan files
+*.tfplan
+
+# Sensitive variable overrides
+*.tfvars
+*.tfvars.json
+
+# Directory created by `terraform init`
+.terraform/
+.terraform.lock.hcl
+
+# Terraform override files
+override.tf
+override.tf.json
+*_override.tf
+*_override.tf.json
+
+# --- Azure specific ---
+# Azure authentication scripts or credentials
+azure_auth.ps1
+azure_auth.sh
+*.azureauth
+.env
+
+# --- System files ---
+# Windows or macOS junk
+*.DS_Store
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+
+# Editor/IDE folders
+.vscode/
+.idea/
+*.swp
+*.swo
+*.bak
+
+# Python virtual env (if used for automation)
+venv/
+__pycache__/
+
+# Logs
+*.log
