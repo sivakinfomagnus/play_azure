@@ -85,4 +85,3 @@ resource "azurerm_dev_test_global_vm_shutdown_schedule" "shutdown" {
     enabled         = false
   }
 }
-
