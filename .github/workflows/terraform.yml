@@ -3,7 +3,7 @@ name: Terraform Deploy with Remote State
 on:
   push:
     branches:
-      - master
+      - main
 
 jobs:
   bootstrap:
