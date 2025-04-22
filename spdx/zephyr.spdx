@@ -6,6 +6,7 @@ DocumentNamespace: http://spdx.org/spdxdocs/zephyr-22a29c5f-f84d-4e95-9d83-ae1dc
 Creator: Tool: Zephyr SPDX builder
 Created: 2025-04-17T23:28:52Z
 
+
 Relationship: SPDXRef-DOCUMENT DESCRIBES SPDXRef-zephyr-sources
 Relationship: SPDXRef-DOCUMENT DESCRIBES SPDXRef-acpica-sources
 Relationship: SPDXRef-DOCUMENT DESCRIBES SPDXRef-cmsis-sources
