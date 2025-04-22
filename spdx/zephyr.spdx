@@ -1,0 +1,1437 @@
+SPDXVersion: SPDX-2.3
+DataLicense: CC0-1.0
+SPDXID: SPDXRef-DOCUMENT
+DocumentName: zephyr-sources
+DocumentNamespace: http://spdx.org/spdxdocs/zephyr-22a29c5f-f84d-4e95-9d83-ae1dc5fe94bd/zephyr
+Creator: Tool: Zephyr SPDX builder
+Created: 2025-04-17T23:28:52Z
+
+Relationship: SPDXRef-DOCUMENT DESCRIBES SPDXRef-zephyr-sources
+Relationship: SPDXRef-DOCUMENT DESCRIBES SPDXRef-acpica-sources
+Relationship: SPDXRef-DOCUMENT DESCRIBES SPDXRef-cmsis-sources
+Relationship: SPDXRef-DOCUMENT DESCRIBES SPDXRef-cmsis-dsp-sources
+Relationship: SPDXRef-DOCUMENT DESCRIBES SPDXRef-cmsis-nn-sources
+Relationship: SPDXRef-DOCUMENT DESCRIBES SPDXRef-fatfs-sources
+Relationship: SPDXRef-DOCUMENT DESCRIBES SPDXRef-adi-sources
+Relationship: SPDXRef-DOCUMENT DESCRIBES SPDXRef-altera-sources
+Relationship: SPDXRef-DOCUMENT DESCRIBES SPDXRef-hal-ambiq-sources
+Relationship: SPDXRef-DOCUMENT DESCRIBES SPDXRef-atmel-sources
+Relationship: SPDXRef-DOCUMENT DESCRIBES SPDXRef-hal-espressif-sources
+Relationship: SPDXRef-DOCUMENT DESCRIBES SPDXRef-hal-ethos-u-sources
+Relationship: SPDXRef-DOCUMENT DESCRIBES SPDXRef-hal-gigadevice-sources
+Relationship: SPDXRef-DOCUMENT DESCRIBES SPDXRef-hal-infineon-sources
+Relationship: SPDXRef-DOCUMENT DESCRIBES SPDXRef-hal-intel-sources
+Relationship: SPDXRef-DOCUMENT DESCRIBES SPDXRef-microchip-sources
+Relationship: SPDXRef-DOCUMENT DESCRIBES SPDXRef-hal-nordic-sources
+Relationship: SPDXRef-DOCUMENT DESCRIBES SPDXRef-nuvoton-sources
+Relationship: SPDXRef-DOCUMENT DESCRIBES SPDXRef-hal-nxp-sources
+Relationship: SPDXRef-DOCUMENT DESCRIBES SPDXRef-openisa-sources
+Relationship: SPDXRef-DOCUMENT DESCRIBES SPDXRef-quicklogic-sources
+Relationship: SPDXRef-DOCUMENT DESCRIBES SPDXRef-hal-renesas-sources
+Relationship: SPDXRef-DOCUMENT DESCRIBES SPDXRef-hal-rpi-pico-sources
+Relationship: SPDXRef-DOCUMENT DESCRIBES SPDXRef-hal-silabs-sources
+Relationship: SPDXRef-DOCUMENT DESCRIBES SPDXRef-hal-st-sources
+Relationship: SPDXRef-DOCUMENT DESCRIBES SPDXRef-hal-stm32-sources
+Relationship: SPDXRef-DOCUMENT DESCRIBES SPDXRef-hal-tdk-sources
+Relationship: SPDXRef-DOCUMENT DESCRIBES SPDXRef-hal-telink-sources
+Relationship: SPDXRef-DOCUMENT DESCRIBES SPDXRef-ti-sources
+Relationship: SPDXRef-DOCUMENT DESCRIBES SPDXRef-hal-wch-sources
+Relationship: SPDXRef-DOCUMENT DESCRIBES SPDXRef-hal-wurthelektronik-sources
+Relationship: SPDXRef-DOCUMENT DESCRIBES SPDXRef-xtensa-sources
+Relationship: SPDXRef-DOCUMENT DESCRIBES SPDXRef-hostap-sources
+Relationship: SPDXRef-DOCUMENT DESCRIBES SPDXRef-liblc3-sources
+Relationship: SPDXRef-DOCUMENT DESCRIBES SPDXRef-libmctp-sources
+Relationship: SPDXRef-DOCUMENT DESCRIBES SPDXRef-libmetal-sources
+Relationship: SPDXRef-DOCUMENT DESCRIBES SPDXRef-littlefs-sources
+Relationship: SPDXRef-DOCUMENT DESCRIBES SPDXRef-loramac-node-sources
+Relationship: SPDXRef-DOCUMENT DESCRIBES SPDXRef-lvgl-sources
+Relationship: SPDXRef-DOCUMENT DESCRIBES SPDXRef-mbedtls-sources
+Relationship: SPDXRef-DOCUMENT DESCRIBES SPDXRef-mcuboot-sources
+Relationship: SPDXRef-DOCUMENT DESCRIBES SPDXRef-mipi-sys-t-sources
+Relationship: SPDXRef-DOCUMENT DESCRIBES SPDXRef-nrf-wifi-sources
+Relationship: SPDXRef-DOCUMENT DESCRIBES SPDXRef-open-amp-sources
+Relationship: SPDXRef-DOCUMENT DESCRIBES SPDXRef-openthread-sources
+Relationship: SPDXRef-DOCUMENT DESCRIBES SPDXRef-percepio-sources
+Relationship: SPDXRef-DOCUMENT DESCRIBES SPDXRef-picolibc-sources
+Relationship: SPDXRef-DOCUMENT DESCRIBES SPDXRef-segger-sources
+Relationship: SPDXRef-DOCUMENT DESCRIBES SPDXRef-tinycrypt-sources
+Relationship: SPDXRef-DOCUMENT DESCRIBES SPDXRef-trusted-firmware-a-sources
+Relationship: SPDXRef-DOCUMENT DESCRIBES SPDXRef-trusted-firmware-m-sources
+Relationship: SPDXRef-DOCUMENT DESCRIBES SPDXRef-uoscore-uedhoc-sources
+Relationship: SPDXRef-DOCUMENT DESCRIBES SPDXRef-zcbor-sources
+Relationship: SPDXRef-DOCUMENT DESCRIBES SPDXRef-nrf-hw-models-sources
+
+##### Package: zephyr-sources
+
+PackageName: zephyr-sources
+SPDXID: SPDXRef-zephyr-sources
+PackageLicenseConcluded: Apache-2.0
+PackageLicenseDeclared: NOASSERTION
+PackageCopyrightText: NOASSERTION
+PackageDownloadLocation: git+https://github.com/zephyrproject-rtos/zephyr.git@f9220146e623a7a6794c53f1a641aaca055e6b16-dirty
+PackageVersion: f9220146e623a7a6794c53f1a641aaca055e6b16-dirty
+PackageLicenseInfoFromFiles: Apache-2.0
+FilesAnalyzed: true
+PackageVerificationCode: f1aad1241cedee19e95563223e1ecfc03e9a4ba9
+
+FileName: ./zephyr/arch/x86/core/cpuhalt.c
+SPDXID: SPDXRef-File-cpuhalt.c
+FileChecksum: SHA1: 1f31e704a9c1e22527122b24c776fef02569f97c
+FileChecksum: SHA256: 2145906c4fce4e3cce064283c0e37752824893c40ac5bb3cfc1d0c8f7c2e905d
+LicenseConcluded: Apache-2.0
+LicenseInfoInFile: Apache-2.0
+FileCopyrightText: NOASSERTION
+
+FileName: ./zephyr/arch/x86/core/cpuid.c
+SPDXID: SPDXRef-File-cpuid.c
+FileChecksum: SHA1: b0b18d9fc3ee26ec3d62bed5f96b3b91bc0a083c
+FileChecksum: SHA256: c644f393f41a4158748c51981a8d0c07f0aff8babe50f95bb72fbd6964bc9422
+LicenseConcluded: Apache-2.0
+LicenseInfoInFile: Apache-2.0
+FileCopyrightText: NOASSERTION
+
+FileName: ./zephyr/arch/x86/core/early_serial.c
+SPDXID: SPDXRef-File-early-serial.c
+FileChecksum: SHA1: d2cb6f828c1d091c3dd5a53d9c3d11944c2fbcc6
+FileChecksum: SHA256: 90041edfbca1749a1b2c35feb47aa22ca5751e12bab28ab9ac5d800612f21600
+LicenseConcluded: Apache-2.0
+LicenseInfoInFile: Apache-2.0
+FileCopyrightText: NOASSERTION
+
+FileName: ./zephyr/arch/x86/core/fatal.c
+SPDXID: SPDXRef-File-fatal.c
+FileChecksum: SHA1: 77066e30dcf0478d029a0bc83760fdc9ba55c826
+FileChecksum: SHA256: b2bab25b11dae6430e5fc4efb02bb952212ab86ebf1e8d3c6ab493100baf20af
+LicenseConcluded: Apache-2.0
+LicenseInfoInFile: Apache-2.0
+FileCopyrightText: NOASSERTION
+
+FileName: ./zephyr/arch/x86/core/ia32/crt0.S
+SPDXID: SPDXRef-File-crt0.S
+FileChecksum: SHA1: 6b0cc9937a72f9d627928cafacc7874c7446e643
+FileChecksum: SHA256: a222a6dcd63f720cb3473c090236828dab7e289d4874dd9148014e44e134644a
+LicenseConcluded: Apache-2.0
+LicenseInfoInFile: Apache-2.0
+FileCopyrightText: NOASSERTION
+
+FileName: ./zephyr/arch/x86/core/ia32/excstub.S
+SPDXID: SPDXRef-File-excstub.S
+FileChecksum: SHA1: 0f450ecd450c7b4fcacdff1338701f6b09977d7f
+FileChecksum: SHA256: c697aa4b41c103f5c106363871722a2d13245c018cf3e222ddffbe99cae8ce59
+LicenseConcluded: Apache-2.0
+LicenseInfoInFile: Apache-2.0
+FileCopyrightText: NOASSERTION
+
+FileName: ./zephyr/arch/x86/core/ia32/fatal.c
+SPDXID: SPDXRef-File-fatal.c-2
+FileChecksum: SHA1: cc6a50f90fb3c43060e94a6754f533e70c3f89b5
+FileChecksum: SHA256: 8a1389b197ea83dd4044bdc53f4a058dc1b0e6ff4673328687f48c24215a58f2
+LicenseConcluded: Apache-2.0
+LicenseInfoInFile: Apache-2.0
+FileCopyrightText: NOASSERTION
+
+FileName: ./zephyr/arch/x86/core/ia32/intstub.S
+SPDXID: SPDXRef-File-intstub.S
+FileChecksum: SHA1: eed4bfa57c1cf713cd95bd569aa5346ab04c2160
+FileChecksum: SHA256: 4f5f764f957c500e1434bbc00c1f658f2988b0fad7199149ec8ea9302ecf2335
+LicenseConcluded: Apache-2.0
+LicenseInfoInFile: Apache-2.0
+FileCopyrightText: NOASSERTION
+
+FileName: ./zephyr/arch/x86/core/ia32/irq_manage.c
+SPDXID: SPDXRef-File-irq-manage.c
+FileChecksum: SHA1: 3383f3c3a42715a1d6e367172b8a086ecf3cf420
+FileChecksum: SHA256: e57c7008d928e951607b5d82d3af7a6639bfd4584265c749454e9fefa4c8d91b
+LicenseConcluded: Apache-2.0
+LicenseInfoInFile: Apache-2.0
+FileCopyrightText: NOASSERTION
+
+FileName: ./zephyr/arch/x86/core/ia32/soft_float_stubs.c
+SPDXID: SPDXRef-File-soft-float-stubs.c
+FileChecksum: SHA1: ad1b5bc52f4d209c6cdc6c621d5f7af05e738cd0
+FileChecksum: SHA256: 720911820551bd970bf8c5fb11d1506c5af14de5ae8a753ee4082b1e0a093867
+LicenseConcluded: Apache-2.0
+LicenseInfoInFile: Apache-2.0
+FileCopyrightText: NOASSERTION
+
+FileName: ./zephyr/arch/x86/core/ia32/swap.S
+SPDXID: SPDXRef-File-swap.S
+FileChecksum: SHA1: 8d9d607952768184c47f695dbed5d5d71c6449d1
+FileChecksum: SHA256: 4aab2dca479b1ae6c8e1208d5a99d9b5563736c20c23d50358484da1453171ab
+LicenseConcluded: Apache-2.0
+LicenseInfoInFile: Apache-2.0
+FileCopyrightText: NOASSERTION
+
+FileName: ./zephyr/arch/x86/core/ia32/thread.c
+SPDXID: SPDXRef-File-thread.c
+FileChecksum: SHA1: daca1775a60227d233769590d6fcce60f38445a6
+FileChecksum: SHA256: 5e463606d39e6835c10e93d0590a9514e15972eaba1cb7f9d94fe87ee3c3d7fc
+LicenseConcluded: Apache-2.0
+LicenseInfoInFile: Apache-2.0
+FileCopyrightText: NOASSERTION
+
+FileName: ./zephyr/arch/x86/core/ia32/tls.c
+SPDXID: SPDXRef-File-tls.c-2
+FileChecksum: SHA1: 248f72556afc3657f0f3c7fa51407d6c233bc15b
+FileChecksum: SHA256: 83ca0cbe8bdb793a8a1340aeaf93839ceee2da26154b89995123e9ff760b5324
+LicenseConcluded: Apache-2.0
+LicenseInfoInFile: Apache-2.0
+FileCopyrightText: NOASSERTION
+
+FileName: ./zephyr/arch/x86/core/memmap.c
+SPDXID: SPDXRef-File-memmap.c
+FileChecksum: SHA1: 5f86b7f33afd0bf55331574180e45df8d405a3dc
+FileChecksum: SHA256: 459b8faff3429bb71a7e4769c8b1e31746303399f21ac5a06deb3b35ff8e9052
+LicenseConcluded: Apache-2.0
+LicenseInfoInFile: Apache-2.0
+FileCopyrightText: NOASSERTION
+
+FileName: ./zephyr/arch/x86/core/multiboot.c
+SPDXID: SPDXRef-File-multiboot.c
+FileChecksum: SHA1: 00e7550914982584ed81159d2b3f8cb6ecefdee1
+FileChecksum: SHA256: 089b4ef3da868e1629eeed5e48728a9c3b81a65e9d5dec09473e6f3254ee6342
+LicenseConcluded: Apache-2.0
+LicenseInfoInFile: Apache-2.0
+FileCopyrightText: NOASSERTION
+
+FileName: ./zephyr/arch/x86/core/offsets/offsets.c
+SPDXID: SPDXRef-File-offsets.c
+FileChecksum: SHA1: 0904f0ef0d32e84c1573448b466beea864c89071
+FileChecksum: SHA256: 99ad1f5dd752df5bd66362f432122780808ebc5ea64bdb6d653d93825f1af57e
+LicenseConcluded: Apache-2.0
+LicenseInfoInFile: Apache-2.0
+FileCopyrightText: NOASSERTION
+
+FileName: ./zephyr/arch/x86/core/prep_c.c
+SPDXID: SPDXRef-File-prep-c.c
+FileChecksum: SHA1: cd568e24882c9348c6fe530e93c92f7526ef90f0
+FileChecksum: SHA256: 7412806cd4ad94df08f667eac09ce41446132f536ebe56c0732b0bbdd4baa1dd
+LicenseConcluded: Apache-2.0
+LicenseInfoInFile: Apache-2.0
+FileCopyrightText: NOASSERTION
+
+FileName: ./zephyr/arch/x86/core/spec_ctrl.c
+SPDXID: SPDXRef-File-spec-ctrl.c
+FileChecksum: SHA1: ee9f621c9cb747e3cc1161b7abed418cfe4e7cdb
+FileChecksum: SHA256: 4ea1fbbe3c1a814177eac71915f8233093c235ef5c9a663b3db54d4cc89d8005
+LicenseConcluded: Apache-2.0
+LicenseInfoInFile: Apache-2.0
+FileCopyrightText: NOASSERTION
+
+FileName: ./zephyr/arch/x86/core/tls.c
+SPDXID: SPDXRef-File-tls.c
+FileChecksum: SHA1: 062873a9ae9e81a9eb4a61e363d545b97da7098a
+FileChecksum: SHA256: 8c76769d7531158940d203bb49e648e8cc5f68b8a3043b196c67fb091fb96d81
+LicenseConcluded: Apache-2.0
+LicenseInfoInFile: Apache-2.0
+FileCopyrightText: NOASSERTION
+
+FileName: ./zephyr/arch/x86/core/x86_mmu.c
+SPDXID: SPDXRef-File-x86-mmu.c
+FileChecksum: SHA1: 6b48913e5b44c6044bf670433a08ce4a8d20a035
+FileChecksum: SHA256: 800ea1c7522e6dbfa494096d9311f98100160d4e6a66596a833dea356269054c
+LicenseConcluded: Apache-2.0
+LicenseInfoInFile: Apache-2.0
+FileCopyrightText: NOASSERTION
+
+FileName: ./zephyr/drivers/console/uart_console.c
+SPDXID: SPDXRef-File-uart-console.c
+FileChecksum: SHA1: f3c71dac8170762e6912a9e3823420dcf3a5de0d
+FileChecksum: SHA256: 9fd8ef1990c461fce52e46f7058e0c630cf6e06bf94fbc47e5b43301884741c0
+LicenseConcluded: Apache-2.0
+LicenseInfoInFile: Apache-2.0
+FileCopyrightText: NOASSERTION
+
+FileName: ./zephyr/drivers/interrupt_controller/intc_ioapic.c
+SPDXID: SPDXRef-File-intc-ioapic.c
+FileChecksum: SHA1: 46d8ea9bf8ab40f84a41779142075c9819d08c67
+FileChecksum: SHA256: 0268ae37642177020d905263eab22eb1a8f1189122ab4961d519a81f8ac13dcb
+LicenseConcluded: Apache-2.0
+LicenseInfoInFile: Apache-2.0
+FileCopyrightText: NOASSERTION
+
+FileName: ./zephyr/drivers/interrupt_controller/intc_loapic.c
+SPDXID: SPDXRef-File-intc-loapic.c
+FileChecksum: SHA1: 3e8e3f6822c75a6e8a40b5374e91bcd588a6ecf9
+FileChecksum: SHA256: 179f8230f6475d38aef5665f2550da011acad9e6e9113090554c56f608ac612b
+LicenseConcluded: Apache-2.0
+LicenseInfoInFile: Apache-2.0
+FileCopyrightText: NOASSERTION
+
+FileName: ./zephyr/drivers/interrupt_controller/intc_system_apic.c
+SPDXID: SPDXRef-File-intc-system-apic.c
+FileChecksum: SHA1: c0ce67eeda12bdff77a2cffba3a1ba39c06f86f6
+FileChecksum: SHA256: b5e1dbc51f94c97213ca107ad065b0bab696a6cbc60e35c83ebce0d4deb6464e
+LicenseConcluded: Apache-2.0
+LicenseInfoInFile: Apache-2.0
+FileCopyrightText: NOASSERTION
+
+FileName: ./zephyr/drivers/serial/uart_ns16550.c
+SPDXID: SPDXRef-File-uart-ns16550.c
+FileChecksum: SHA1: 9341cbb6420d0a336b171a09b401f38215963c63
+FileChecksum: SHA256: adf92064b18682e85e7c57210b13d7da1ae0de33dd880cf291922f834716a2c5
+LicenseConcluded: Apache-2.0
+LicenseInfoInFile: Apache-2.0
+FileCopyrightText: NOASSERTION
+
+FileName: ./zephyr/drivers/timer/hpet.c
+SPDXID: SPDXRef-File-hpet.c
+FileChecksum: SHA1: f015fd382c3770359977ece2c8fbec01ef99307b
+FileChecksum: SHA256: edaf434f5d296f3dfee94f04eecd79c67c178130c1d14b223ee7df11a56c0c56
+LicenseConcluded: Apache-2.0
+LicenseInfoInFile: Apache-2.0
+FileCopyrightText: NOASSERTION
+
+FileName: ./zephyr/drivers/timer/sys_clock_init.c
+SPDXID: SPDXRef-File-sys-clock-init.c
+FileChecksum: SHA1: 8555c132c4b3041445b86be053184cbb5cade22a
+FileChecksum: SHA256: 426a9d15a2a26d8f250dbd44057f5a56a73efddf9184d2664faec796d578354c
+LicenseConcluded: Apache-2.0
+LicenseInfoInFile: Apache-2.0
+FileCopyrightText: NOASSERTION
+
+FileName: ./zephyr/kernel/banner.c
+SPDXID: SPDXRef-File-banner.c
+FileChecksum: SHA1: a112e978eb3b897b7b730311c54b0eb009e331ff
+FileChecksum: SHA256: 2319b404a9dce5e3d26d692aab552f24a84429e3d2e6ae45365e5d391c9ab19a
+LicenseConcluded: Apache-2.0
+LicenseInfoInFile: Apache-2.0
+FileCopyrightText: NOASSERTION
+
+FileName: ./zephyr/kernel/busy_wait.c
+SPDXID: SPDXRef-File-busy-wait.c
+FileChecksum: SHA1: 7f19c70d13a09f6cff11f136853c65027f11ac9b
+FileChecksum: SHA256: fa71ef2d8e936a4269744056b02d8690f39d8a0db76975985a3266fc6cdcd6dc
+LicenseConcluded: Apache-2.0
+LicenseInfoInFile: Apache-2.0
+FileCopyrightText: NOASSERTION
+
+FileName: ./zephyr/kernel/condvar.c
+SPDXID: SPDXRef-File-condvar.c
+FileChecksum: SHA1: 1befb2ef72117698c33a12f1871d3736dcc3c799
+FileChecksum: SHA256: 20be8d9c4b267a8c010c1d5225f787bce2664ef32125f546ecccf03878e67f09
+LicenseConcluded: Apache-2.0
+LicenseInfoInFile: Apache-2.0
+FileCopyrightText: NOASSERTION
+
+FileName: ./zephyr/kernel/device.c
+SPDXID: SPDXRef-File-device.c
+FileChecksum: SHA1: c295138b21d58ebd2deee4f916a4ff46d8628044
+FileChecksum: SHA256: d1062e57f9e99d7a78671e8986562e662a671b0fef3a13160a9e00e29b76d872
+LicenseConcluded: Apache-2.0
+LicenseInfoInFile: Apache-2.0
+FileCopyrightText: NOASSERTION
+
+FileName: ./zephyr/kernel/dynamic_disabled.c
+SPDXID: SPDXRef-File-dynamic-disabled.c
+FileChecksum: SHA1: ef497839cbed688b1a281b81ef439aaa6c20480b
+FileChecksum: SHA256: 7d2627bcb64f6eef6536d14f7458bca1db35ace85134782ef921d6bc989aa31a
+LicenseConcluded: Apache-2.0
+LicenseInfoInFile: Apache-2.0
+FileCopyrightText: NOASSERTION
+
+FileName: ./zephyr/kernel/errno.c
+SPDXID: SPDXRef-File-errno.c
+FileChecksum: SHA1: 43f96f87071d1be282defc98ce67f2ac28bbc607
+FileChecksum: SHA256: 79083970578e3c46fa4eb83c35858dccc9048db3a3df82d87e7fbbbd92bcff55
+LicenseConcluded: Apache-2.0
+LicenseInfoInFile: Apache-2.0
+FileCopyrightText: NOASSERTION
+
+FileName: ./zephyr/kernel/fatal.c
+SPDXID: SPDXRef-File-fatal.c-3
+FileChecksum: SHA1: 4980cf15bc7a13c72c1b36a37df6e267f8ae4436
+FileChecksum: SHA256: 63a403ccdf73d0961e7a8d3b586e8a06908b1352ce226073434cdef5298fc30f
+LicenseConcluded: Apache-2.0
+LicenseInfoInFile: Apache-2.0
+FileCopyrightText: NOASSERTION
+
+FileName: ./zephyr/kernel/float.c
+SPDXID: SPDXRef-File-float.c
+FileChecksum: SHA1: e879f53dbe0b5bc9e1412e5d0078c85110e1e8d9
+FileChecksum: SHA256: 81d352f3d5b6231ee66301375cb8ac38b77cb4638f0592212151ede00f58b51a
+LicenseConcluded: Apache-2.0
+LicenseInfoInFile: Apache-2.0
+FileCopyrightText: NOASSERTION
+
+FileName: ./zephyr/kernel/idle.c
+SPDXID: SPDXRef-File-idle.c
+FileChecksum: SHA1: db84335fb541756113c198b6a0c3ec88c6090adf
+FileChecksum: SHA256: 5825a70175c55694c36810442eea20fe4a00cb6d0a3cb3a35a98baeb948ef21a
+LicenseConcluded: Apache-2.0
+LicenseInfoInFile: Apache-2.0
+FileCopyrightText: NOASSERTION
+
+FileName: ./zephyr/kernel/init.c
+SPDXID: SPDXRef-File-init.c
+FileChecksum: SHA1: 11a5b960536946be9e26f2966929a3007c0da52a
+FileChecksum: SHA256: 0349fed6a5405af5c3bade7b9749669ce916f5274761e511a3a2df8b188ef21d
+LicenseConcluded: Apache-2.0
+LicenseInfoInFile: Apache-2.0
+FileCopyrightText: NOASSERTION
+
+FileName: ./zephyr/kernel/kheap.c
+SPDXID: SPDXRef-File-kheap.c
+FileChecksum: SHA1: ac340c726bbca239b0f210cdf776b87950755272
+FileChecksum: SHA256: 751b523539bd149a73b7900539cf2ca5ef6b3a83853dd1477c4c18cf6d26854f
+LicenseConcluded: Apache-2.0
+LicenseInfoInFile: Apache-2.0
+FileCopyrightText: NOASSERTION
+
+FileName: ./zephyr/kernel/mailbox.c
+SPDXID: SPDXRef-File-mailbox.c
+FileChecksum: SHA1: ab38e3217a895ecdad7af491a2687eb28b10489f
+FileChecksum: SHA256: 1e68899bcd31ca25db98341dbe2ba373290aa33f6868ae55fe4779de68cce156
+LicenseConcluded: Apache-2.0
+LicenseInfoInFile: Apache-2.0
+FileCopyrightText: NOASSERTION
+
+FileName: ./zephyr/kernel/main_weak.c
+SPDXID: SPDXRef-File-main-weak.c
+FileChecksum: SHA1: be7604e0fd0a8168af9a8e89b7e29a666d00e9f7
+FileChecksum: SHA256: 42fbf6062eaaf4e3787134f71327eb48ca5b263dda8e32e3e264d625595e91ae
+LicenseConcluded: Apache-2.0
+LicenseInfoInFile: Apache-2.0
+FileCopyrightText: NOASSERTION
+
+FileName: ./zephyr/kernel/mem_slab.c
+SPDXID: SPDXRef-File-mem-slab.c
+FileChecksum: SHA1: e6bcabe3ddd7fe9c4397f98f8f3d6f0f794c2004
+FileChecksum: SHA256: 783a1955fc7de7b8b9c2ad67eab805467d3452e3b9c8a58065ea571741f8f103
+LicenseConcluded: Apache-2.0
+LicenseInfoInFile: Apache-2.0
+FileCopyrightText: NOASSERTION
+
+FileName: ./zephyr/kernel/mempool.c
+SPDXID: SPDXRef-File-mempool.c
+FileChecksum: SHA1: df5763702d2ad483d90b8da583875605b6c47ca4
+FileChecksum: SHA256: b0672460bce0716c8fcbc58278e3ada1970badc6ebfaba87c0f3716f90b2bcf2
+LicenseConcluded: Apache-2.0
+LicenseInfoInFile: Apache-2.0
+FileCopyrightText: NOASSERTION
+
+FileName: ./zephyr/kernel/mmu.c
+SPDXID: SPDXRef-File-mmu.c
+FileChecksum: SHA1: 621e480ee479c11b43f00e2d34f12e7b61a14b02
+FileChecksum: SHA256: 258bcd04e709b54fc306f673240dc92a27aa81703eafc4aae9e40152ffd29646
+LicenseConcluded: Apache-2.0
+LicenseInfoInFile: Apache-2.0
+FileCopyrightText: NOASSERTION
+
+FileName: ./zephyr/kernel/msg_q.c
+SPDXID: SPDXRef-File-msg-q.c
+FileChecksum: SHA1: e8de1f934e5e6c2f8834ba2622e345f23728bfcd
+FileChecksum: SHA256: 2c7cbc5f6b4ac3601e930766bff86d177779ea1c29b817329acc2c82d33fe64f
+LicenseConcluded: Apache-2.0
+LicenseInfoInFile: Apache-2.0
+FileCopyrightText: NOASSERTION
+
+FileName: ./zephyr/kernel/mutex.c
+SPDXID: SPDXRef-File-mutex.c
+FileChecksum: SHA1: b4b21bed913f4a3924b000931d0c6686048f1b37
+FileChecksum: SHA256: d40058963b4e2b57779f77fd2647ade2e49fcd41ea12ed4e53a3782b95ade641
+LicenseConcluded: Apache-2.0
+LicenseInfoInFile: Apache-2.0
+FileCopyrightText: NOASSERTION
+
+FileName: ./zephyr/kernel/pipe.c
+SPDXID: SPDXRef-File-pipe.c
+FileChecksum: SHA1: 038f68c702b2435912beff2817388e92bfaa3e80
+FileChecksum: SHA256: 6c24d0809464b00beea6213bb311a0d5d7f453b79e13a59404e4eca9b789b76c
+LicenseConcluded: Apache-2.0
+LicenseInfoInFile: Apache-2.0
+FileCopyrightText: NOASSERTION
+
+FileName: ./zephyr/kernel/priority_queues.c
+SPDXID: SPDXRef-File-priority-queues.c
+FileChecksum: SHA1: 6267e887e73c16b5409ba77c218b1041471f0b6a
+FileChecksum: SHA256: 01fef29611b2c43deefe75585c5cbe1c842b00307ec96780e92dd37b47a088ad
+LicenseConcluded: Apache-2.0
+LicenseInfoInFile: Apache-2.0
+FileCopyrightText: NOASSERTION
+
+FileName: ./zephyr/kernel/queue.c
+SPDXID: SPDXRef-File-queue.c
+FileChecksum: SHA1: 6c731e0b9f0768b3288c304c22647b6e5b571344
+FileChecksum: SHA256: 4274e01743bfaf05ceec10a39a049f94a6ba1f040753a2c492976dcb0c69c1f3
+LicenseConcluded: Apache-2.0
+LicenseInfoInFile: Apache-2.0
+FileCopyrightText: NOASSERTION
+
+FileName: ./zephyr/kernel/sched.c
+SPDXID: SPDXRef-File-sched.c
+FileChecksum: SHA1: 4cdff187ff251c4525fdaf16fadc33aea4ff9d53
+FileChecksum: SHA256: 8936b727d1418b07e16a9499d478bbdd37fbb7cc947848053fab6352ccbf1334
+LicenseConcluded: Apache-2.0
+LicenseInfoInFile: Apache-2.0
+FileCopyrightText: NOASSERTION
+
+FileName: ./zephyr/kernel/sem.c
+SPDXID: SPDXRef-File-sem.c
+FileChecksum: SHA1: 64d76e03a9ba57068b4fa8b7dd0d30583da1feb7
+FileChecksum: SHA256: 7731c241d90e49a93afaeeb35714ac3489a9ae165fb98b25d3b0e1cccf35c878
+LicenseConcluded: Apache-2.0
+LicenseInfoInFile: Apache-2.0
+FileCopyrightText: NOASSERTION
+
+FileName: ./zephyr/kernel/stack.c
+SPDXID: SPDXRef-File-stack.c
+FileChecksum: SHA1: cfe69fc5a0f696f7550c43dfb0d1597ff5ea0fbe
+FileChecksum: SHA256: 0e23742673ad9ec6b403af6971a0aa6a99ac046e3cfeb9a7ce1ffa093499354c
+LicenseConcluded: Apache-2.0
+LicenseInfoInFile: Apache-2.0
+FileCopyrightText: NOASSERTION
+
+FileName: ./zephyr/kernel/system_work_q.c
+SPDXID: SPDXRef-File-system-work-q.c
+FileChecksum: SHA1: e2c9e68dcd322a1765962972f1744adc69e756ed
+FileChecksum: SHA256: 04e6ac82aecac8460b1e8761c06b50dad781fe457524be5cd83839932a3f5e99
+LicenseConcluded: Apache-2.0
+LicenseInfoInFile: Apache-2.0
+FileCopyrightText: NOASSERTION
+
+FileName: ./zephyr/kernel/thread.c
+SPDXID: SPDXRef-File-thread.c-2
+FileChecksum: SHA1: 1371a8f17c7eccf6608ac333b55c2640e906a7e8
+FileChecksum: SHA256: ae238706c78a966e7897aa6dfe911bf2b29aa33517033369b3bc1742b85b27b0
+LicenseConcluded: Apache-2.0
+LicenseInfoInFile: Apache-2.0
+FileCopyrightText: NOASSERTION
+
+FileName: ./zephyr/kernel/timeout.c
+SPDXID: SPDXRef-File-timeout.c
+FileChecksum: SHA1: fb25b75a13145c58bbf10afcc508e92af21e0161
+FileChecksum: SHA256: a82d39b5f64d8772ec2a7aa78f84fd0dcb81c73182f264f4efc320a9111c4c82
+LicenseConcluded: Apache-2.0
+LicenseInfoInFile: Apache-2.0
+FileCopyrightText: NOASSERTION
+
+FileName: ./zephyr/kernel/timer.c
+SPDXID: SPDXRef-File-timer.c
+FileChecksum: SHA1: e8834541e3c71c793864e5b942e748a931f1036d
+FileChecksum: SHA256: 78ff89dc2ba8e9179c13a12a18a2b16bb19337d7d9fe52b4410a775bd18cf949
+LicenseConcluded: Apache-2.0
+LicenseInfoInFile: Apache-2.0
+FileCopyrightText: NOASSERTION
+
+FileName: ./zephyr/kernel/timeslicing.c
+SPDXID: SPDXRef-File-timeslicing.c
+FileChecksum: SHA1: 795a201b6aef9d0a8fd88c82e17f31d15e644e0f
+FileChecksum: SHA256: fec3805eb62063e6c7694c2660e206df5ce46b437e4462f36e27bb71fa85c5a5
+LicenseConcluded: Apache-2.0
+LicenseInfoInFile: Apache-2.0
+FileCopyrightText: NOASSERTION
+
+FileName: ./zephyr/kernel/version.c
+SPDXID: SPDXRef-File-version.c
+FileChecksum: SHA1: 480e7aba3070de62c5681192a2a31e385074d12c
+FileChecksum: SHA256: c03c0e0b32c550cd044490a6efa1ef0fc6b5b550cbdb191fc024a7a2c3cb0314
+LicenseConcluded: Apache-2.0
+LicenseInfoInFile: Apache-2.0
+FileCopyrightText: NOASSERTION
+
+FileName: ./zephyr/kernel/work.c
+SPDXID: SPDXRef-File-work.c
+FileChecksum: SHA1: 0c0cac1e327b3bc2cc0701d00ae38c730752feb3
+FileChecksum: SHA256: bb010b78fae5f0e91aa553808d32db99be6e018f94843b622c23303cf01df017
+LicenseConcluded: Apache-2.0
+LicenseInfoInFile: Apache-2.0
+FileCopyrightText: NOASSERTION
+
+FileName: ./zephyr/lib/heap/heap.c
+SPDXID: SPDXRef-File-heap.c
+FileChecksum: SHA1: 7824165aea6755f2e1fc54c69795d4ca8ff4ca35
+FileChecksum: SHA256: 16e09843e7cb7fca12a978267a152ed3451b4c8c65a4e6fedc6df3d8cf024045
+LicenseConcluded: Apache-2.0
+LicenseInfoInFile: Apache-2.0
+FileCopyrightText: NOASSERTION
+
+FileName: ./zephyr/lib/libc/common/source/stdlib/abort.c
+SPDXID: SPDXRef-File-abort.c
+FileChecksum: SHA1: f0f1e835a9bef08b3093115887951d49ae154083
+FileChecksum: SHA256: 1bdf701115a6779f79ad94284c2e4aed4d3949164d3bdff07fd30e65da5745f2
+LicenseConcluded: Apache-2.0
+LicenseInfoInFile: Apache-2.0
+FileCopyrightText: NOASSERTION
+
+FileName: ./zephyr/lib/libc/common/source/stdlib/malloc.c
+SPDXID: SPDXRef-File-malloc.c
+FileChecksum: SHA1: 32f6778aff0a084940e44c15ae80c2267082edfe
+FileChecksum: SHA256: bcd944bfefd7ce3638ad6fc89fabf8a1f6544340f6dedb6593b20cbbbe215c83
+LicenseConcluded: Apache-2.0
+LicenseInfoInFile: Apache-2.0
+FileCopyrightText: NOASSERTION
+
+FileName: ./zephyr/lib/libc/picolibc/assert.c
+SPDXID: SPDXRef-File-assert.c
+FileChecksum: SHA1: 4fb31eb36704b072f6d1b9dfb2008a291d932d8d
+FileChecksum: SHA256: d1fd4cbd6cac5c9a8fadf6791d7ccf7d98329ef393b7561a6575a65535e2c8ed
+LicenseConcluded: Apache-2.0
+LicenseInfoInFile: Apache-2.0
+FileCopyrightText: NOASSERTION
+
+FileName: ./zephyr/lib/libc/picolibc/cbprintf.c
+SPDXID: SPDXRef-File-cbprintf.c
+FileChecksum: SHA1: 67ee235120a4e7c675ac29c9a04e245701c86ea0
+FileChecksum: SHA256: 9ccd095d5159b94585f7b70fe9ff07218a561920587f96ef86decb8180ebd8c1
+LicenseConcluded: Apache-2.0
+LicenseInfoInFile: Apache-2.0
+FileCopyrightText: NOASSERTION
+
+FileName: ./zephyr/lib/libc/picolibc/chk_fail.c
+SPDXID: SPDXRef-File-chk-fail.c
+FileChecksum: SHA1: 41535f3b76dcf1cbaf4b3390e9480a6fec5ded94
+FileChecksum: SHA256: 705fc796458995926f9eb208f4a92a3084da8377ec8307dc5a69dd9e40303c58
+LicenseConcluded: Apache-2.0
+LicenseInfoInFile: Apache-2.0
+FileCopyrightText: NOASSERTION
+
+FileName: ./zephyr/lib/libc/picolibc/errno_wrap.c
+SPDXID: SPDXRef-File-errno-wrap.c
+FileChecksum: SHA1: 9af2660b105b2b9ca01c64d00b78add5791e6bf1
+FileChecksum: SHA256: 3ab1673e88c424788fcd093527058d727b776a12677e9996b434083d553f5940
+LicenseConcluded: Apache-2.0
+LicenseInfoInFile: Apache-2.0
+FileCopyrightText: NOASSERTION
+
+FileName: ./zephyr/lib/libc/picolibc/exit.c
+SPDXID: SPDXRef-File-exit.c
+FileChecksum: SHA1: 8292d0478f30bc09cdd1afb24f4b87eb62bbbfbb
+FileChecksum: SHA256: d6c02e06cace94d70c9ea241dba2e9d46dc5d446ec8f8aa745d9ce1064c6d074
+LicenseConcluded: Apache-2.0
+LicenseInfoInFile: Apache-2.0
+FileCopyrightText: NOASSERTION
+
+FileName: ./zephyr/lib/libc/picolibc/locks.c
+SPDXID: SPDXRef-File-locks.c
+FileChecksum: SHA1: 0ba62dd0b1c6a7b37bcaa5fb440f3d6619a52f80
+FileChecksum: SHA256: 01210b80f67d4ae7b5f6d9e41c977239f8fce6ecf298f08824490213a4af07af
+LicenseConcluded: Apache-2.0
+LicenseInfoInFile: Apache-2.0
+FileCopyrightText: NOASSERTION
+
+FileName: ./zephyr/lib/libc/picolibc/stdio.c
+SPDXID: SPDXRef-File-stdio.c
+FileChecksum: SHA1: 2a76934620512fede49531326bf9e6734fe5c197
+FileChecksum: SHA256: 164e7af711517c219af88560d5a7c9d3517c6364339182be50bb1150f7eb55db
+LicenseConcluded: Apache-2.0
+LicenseInfoInFile: Apache-2.0
+FileCopyrightText: NOASSERTION
+
+FileName: ./zephyr/lib/os/assert.c
+SPDXID: SPDXRef-File-assert.c-2
+FileChecksum: SHA1: 87ff4b5a2a8e86711ceb2ed91398ad3ab17aea39
+FileChecksum: SHA256: 696129fa3ea62020cc8b5b0de9b52c5926eb5110650657d2cfeeb6e914fb769b
+LicenseConcluded: Apache-2.0
+LicenseInfoInFile: Apache-2.0
+FileCopyrightText: NOASSERTION
+
+FileName: ./zephyr/lib/os/cbprintf_complete.c
+SPDXID: SPDXRef-File-cbprintf-complete.c
+FileChecksum: SHA1: 9bb170ef47cd6289b074225c712646dedc131f19
+FileChecksum: SHA256: b1051226c00f7451fd16238b12a6c9d48d3828a5675a451b992f67c239a402fa
+LicenseConcluded: Apache-2.0
+LicenseInfoInFile: Apache-2.0
+FileCopyrightText: NOASSERTION
+
+FileName: ./zephyr/lib/os/cbprintf_packaged.c
+SPDXID: SPDXRef-File-cbprintf-packaged.c
+FileChecksum: SHA1: 22d397b28a89d1d26357c6b9d00a9e7d99dca006
+FileChecksum: SHA256: 44cd5100ee7419d9dba3174742eaca222de86f06c2cf2b8d2277e209383942fb
+LicenseConcluded: Apache-2.0
+LicenseInfoInFile: Apache-2.0
+FileCopyrightText: NOASSERTION
+
+FileName: ./zephyr/lib/os/printk.c
+SPDXID: SPDXRef-File-printk.c
+FileChecksum: SHA1: bf228cdbc2e2e29fc6b28ef631eaa8ebca6aab44
+FileChecksum: SHA256: 783b06712e50ab18e38489270d0a0a3ff996a03fc05ed394a3962d1a0dae64bb
+LicenseConcluded: Apache-2.0
+LicenseInfoInFile: Apache-2.0
+FileCopyrightText: NOASSERTION
+
+FileName: ./zephyr/lib/os/sem.c
+SPDXID: SPDXRef-File-sem.c-2
+FileChecksum: SHA1: e456d36a24bade411536ee49936a579998c38999
+FileChecksum: SHA256: ebf54b1f8ce07c21ffc7120dac844062228d850c68d4c4f0bb98976d9f9d2493
+LicenseConcluded: Apache-2.0
+LicenseInfoInFile: Apache-2.0
+FileCopyrightText: NOASSERTION
+
+FileName: ./zephyr/lib/os/thread_entry.c
+SPDXID: SPDXRef-File-thread-entry.c
+FileChecksum: SHA1: 0cd6c67c5ba03c8181af7a1738d88e55be47c803
+FileChecksum: SHA256: 5e3b99b1cf4253289c47d1dc7495eeff90f8d446cbb3be96afb71c7767dfa046
+LicenseConcluded: Apache-2.0
+LicenseInfoInFile: Apache-2.0
+FileCopyrightText: NOASSERTION
+
+FileName: ./zephyr/lib/utils/bitarray.c
+SPDXID: SPDXRef-File-bitarray.c
+FileChecksum: SHA1: 23026f7e2bd4b4681f49a287594ea5945e5177da
+FileChecksum: SHA256: a453a5883eb8ff9e809ea9962079a793082f2ad4d4a98d646c8f88596223670d
+LicenseConcluded: Apache-2.0
+LicenseInfoInFile: Apache-2.0
+FileCopyrightText: NOASSERTION
+
+FileName: ./zephyr/lib/utils/dec.c
+SPDXID: SPDXRef-File-dec.c
+FileChecksum: SHA1: d319043c3e3063ddf8a7d731c76f3371708c7977
+FileChecksum: SHA256: b6991d4a5dd46650e0b3a85ed0adcdb87842832bc4c5108fc0918f125316ade0
+LicenseConcluded: Apache-2.0
+LicenseInfoInFile: Apache-2.0
+FileCopyrightText: NOASSERTION
+
+FileName: ./zephyr/lib/utils/hex.c
+SPDXID: SPDXRef-File-hex.c
+FileChecksum: SHA1: c25f6553650e8348b98ce044d521a83d73012433
+FileChecksum: SHA256: 3500c88db0350a67e9c8e84d6ae71daa78d0792f71938773744946ab2e8c390d
+LicenseConcluded: Apache-2.0
+LicenseInfoInFile: Apache-2.0
+FileCopyrightText: NOASSERTION
+
+FileName: ./zephyr/lib/utils/rb.c
+SPDXID: SPDXRef-File-rb.c
+FileChecksum: SHA1: e3e2adb9ab8c66113dfdbc8ece457ed19e2f9ef1
+FileChecksum: SHA256: 9ffd8e4d737a2a7f060f0c3a412895ddf5d093f41adbca6af301564ec319b961
+LicenseConcluded: Apache-2.0
+LicenseInfoInFile: Apache-2.0
+FileCopyrightText: NOASSERTION
+
+FileName: ./zephyr/lib/utils/ring_buffer.c
+SPDXID: SPDXRef-File-ring-buffer.c
+FileChecksum: SHA1: 590765021df365c2aef49ccf234d95c29268d79a
+FileChecksum: SHA256: b82902a77f59baa7d7047affb61f270a9b47457a8708d71347ff833bc705092a
+LicenseConcluded: Apache-2.0
+LicenseInfoInFile: Apache-2.0
+FileCopyrightText: NOASSERTION
+
+FileName: ./zephyr/lib/utils/timeutil.c
+SPDXID: SPDXRef-File-timeutil.c
+FileChecksum: SHA1: c76455ba424406b26c47a55d1dd4dc58a992e06d
+FileChecksum: SHA256: b3ca878aaa7c626284162b4f32483f8dde7478ea7e267a5edb60e3ff854c7355
+LicenseConcluded: Apache-2.0
+LicenseInfoInFile: Apache-2.0
+FileCopyrightText: NOASSERTION
+
+FileName: ./zephyr/misc/empty_file.c
+SPDXID: SPDXRef-File-empty-file.c
+FileChecksum: SHA1: da39a3ee5e6b4b0d3255bfef95601890afd80709
+FileChecksum: SHA256: e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NONE
+FileCopyrightText: NOASSERTION
+
+FileName: ./zephyr/subsys/random/random_test_csprng.c
+SPDXID: SPDXRef-File-random-test-csprng.c
+FileChecksum: SHA1: aac79fd9319ac18045a1d71f83f5bcae09eaf842
+FileChecksum: SHA256: 0647707da2af42e269b44674dd3b492a28890a7854377425de940614f1862692
+LicenseConcluded: Apache-2.0
+LicenseInfoInFile: Apache-2.0
+FileCopyrightText: NOASSERTION
+
+FileName: ./zephyr/subsys/random/random_timer.c
+SPDXID: SPDXRef-File-random-timer.c
+FileChecksum: SHA1: 93b2ddb1871bb3461019aa05bd1f061a5ea24b88
+FileChecksum: SHA256: 76da5749ae1879bdb43607a5f3607f5e83a30911186d888af137f27f6706c9c6
+LicenseConcluded: Apache-2.0
+LicenseInfoInFile: Apache-2.0
+FileCopyrightText: NOASSERTION
+
+FileName: ./zephyr/subsys/tracing/tracing_none.c
+SPDXID: SPDXRef-File-tracing-none.c
+FileChecksum: SHA1: bbff5c838a8591db381fb3fdd3dd27a7dc3137f5
+FileChecksum: SHA256: f8105978be522f4d6e6d90403d808af633e4781a327d04121c0519ebe205b78d
+LicenseConcluded: Apache-2.0
+LicenseInfoInFile: Apache-2.0
+FileCopyrightText: NOASSERTION
+
+##### Package: acpica-sources
+
+PackageName: acpica-sources
+SPDXID: SPDXRef-acpica-sources
+PackageLicenseConcluded: NOASSERTION
+PackageLicenseDeclared: NOASSERTION
+PackageCopyrightText: NOASSERTION
+PrimaryPackagePurpose: SOURCE
+PackageDownloadLocation: git+https://github.com/zephyrproject-rtos/acpica@8d24867bc9c9d81c81eeac59391cda59333affd4
+PackageVersion: 8d24867bc9c9d81c81eeac59391cda59333affd4
+FilesAnalyzed: false
+PackageComment: Utility target; no files
+
+##### Package: cmsis-sources
+
+PackageName: cmsis-sources
+SPDXID: SPDXRef-cmsis-sources
+PackageLicenseConcluded: NOASSERTION
+PackageLicenseDeclared: NOASSERTION
+PackageCopyrightText: NOASSERTION
+PrimaryPackagePurpose: SOURCE
+PackageDownloadLocation: git+https://github.com/zephyrproject-rtos/cmsis@d1b8b20b6278615b00e136374540eb1c00dcabe7
+PackageVersion: d1b8b20b6278615b00e136374540eb1c00dcabe7
+FilesAnalyzed: false
+PackageComment: Utility target; no files
+
+##### Package: cmsis-dsp-sources
+
+PackageName: cmsis-dsp-sources
+SPDXID: SPDXRef-cmsis-dsp-sources
+PackageLicenseConcluded: NOASSERTION
+PackageLicenseDeclared: NOASSERTION
+PackageCopyrightText: NOASSERTION
+PrimaryPackagePurpose: SOURCE
+PackageDownloadLocation: git+https://github.com/zephyrproject-rtos/cmsis-dsp@d80a49b2bb186317dc1db4ac88da49c0ab77e6e7
+PackageVersion: d80a49b2bb186317dc1db4ac88da49c0ab77e6e7
+FilesAnalyzed: false
+PackageComment: Utility target; no files
+
+##### Package: cmsis-nn-sources
+
+PackageName: cmsis-nn-sources
+SPDXID: SPDXRef-cmsis-nn-sources
+PackageLicenseConcluded: NOASSERTION
+PackageLicenseDeclared: NOASSERTION
+PackageCopyrightText: NOASSERTION
+PrimaryPackagePurpose: SOURCE
+PackageDownloadLocation: git+https://github.com/zephyrproject-rtos/cmsis-nn@e9328d612ea3ea7d0d210d3ac16ea8667c01abdd
+PackageVersion: e9328d612ea3ea7d0d210d3ac16ea8667c01abdd
+FilesAnalyzed: false
+PackageComment: Utility target; no files
+
+##### Package: fatfs-sources
+
+PackageName: fatfs-sources
+SPDXID: SPDXRef-fatfs-sources
+PackageLicenseConcluded: NOASSERTION
+PackageLicenseDeclared: NOASSERTION
+PackageCopyrightText: NOASSERTION
+PrimaryPackagePurpose: SOURCE
+PackageDownloadLocation: git+https://github.com/zephyrproject-rtos/fatfs@16245c7c41d2b79e74984f49b5202551786b8a9b
+PackageVersion: 16245c7c41d2b79e74984f49b5202551786b8a9b
+FilesAnalyzed: false
+PackageComment: Utility target; no files
+
+##### Package: adi-sources
+
+PackageName: adi-sources
+SPDXID: SPDXRef-adi-sources
+PackageLicenseConcluded: NOASSERTION
+PackageLicenseDeclared: NOASSERTION
+PackageCopyrightText: NOASSERTION
+PrimaryPackagePurpose: SOURCE
+PackageDownloadLocation: git+https://github.com/zephyrproject-rtos/hal_adi@67b88309c327d207e87bb7af6e37c704cd9d5b9d
+PackageVersion: 67b88309c327d207e87bb7af6e37c704cd9d5b9d
+FilesAnalyzed: false
+PackageComment: Utility target; no files
+
+##### Package: altera-sources
+
+PackageName: altera-sources
+SPDXID: SPDXRef-altera-sources
+PackageLicenseConcluded: NOASSERTION
+PackageLicenseDeclared: NOASSERTION
+PackageCopyrightText: NOASSERTION
+PrimaryPackagePurpose: SOURCE
+PackageDownloadLocation: git+https://github.com/zephyrproject-rtos/hal_altera@4fe4df959d4593ce66e676aeba0b57f546dba0fe
+PackageVersion: 4fe4df959d4593ce66e676aeba0b57f546dba0fe
+FilesAnalyzed: false
+PackageComment: Utility target; no files
+
+##### Package: hal-ambiq-sources
+
+PackageName: hal-ambiq-sources
+SPDXID: SPDXRef-hal-ambiq-sources
+PackageLicenseConcluded: NOASSERTION
+PackageLicenseDeclared: NOASSERTION
+PackageCopyrightText: NOASSERTION
+PrimaryPackagePurpose: SOURCE
+PackageDownloadLocation: git+https://github.com/zephyrproject-rtos/hal_ambiq@a6dff0a5f49e898f29bc428e01538a8911364460
+PackageVersion: a6dff0a5f49e898f29bc428e01538a8911364460
+FilesAnalyzed: false
+PackageComment: Utility target; no files
+
+##### Package: atmel-sources
+
+PackageName: atmel-sources
+SPDXID: SPDXRef-atmel-sources
+PackageLicenseConcluded: NOASSERTION
+PackageLicenseDeclared: NOASSERTION
+PackageCopyrightText: NOASSERTION
+PrimaryPackagePurpose: SOURCE
+PackageDownloadLocation: git+https://github.com/zephyrproject-rtos/hal_atmel@ca7e4c6920f44b9d677ed5995ffa169f18a54cdf
+PackageVersion: ca7e4c6920f44b9d677ed5995ffa169f18a54cdf
+FilesAnalyzed: false
+PackageComment: Utility target; no files
+
+##### Package: hal-espressif-sources
+
+PackageName: hal-espressif-sources
+SPDXID: SPDXRef-hal-espressif-sources
+PackageLicenseConcluded: NOASSERTION
+PackageLicenseDeclared: NOASSERTION
+PackageCopyrightText: NOASSERTION
+PrimaryPackagePurpose: SOURCE
+PackageDownloadLocation: git+https://github.com/zephyrproject-rtos/hal_espressif@dbc28ad4c1bdcdb25e79ca225cb5528a75d8dc91
+PackageVersion: dbc28ad4c1bdcdb25e79ca225cb5528a75d8dc91
+FilesAnalyzed: false
+PackageComment: Utility target; no files
+
+##### Package: hal-ethos-u-sources
+
+PackageName: hal-ethos-u-sources
+SPDXID: SPDXRef-hal-ethos-u-sources
+PackageLicenseConcluded: NOASSERTION
+PackageLicenseDeclared: NOASSERTION
+PackageCopyrightText: NOASSERTION
+PrimaryPackagePurpose: SOURCE
+PackageDownloadLocation: git+https://github.com/zephyrproject-rtos/hal_ethos_u@50ddffca1cc700112f25ad9bc077915a0355ee5d
+PackageVersion: 50ddffca1cc700112f25ad9bc077915a0355ee5d
+FilesAnalyzed: false
+PackageComment: Utility target; no files
+
+##### Package: hal-gigadevice-sources
+
+PackageName: hal-gigadevice-sources
+SPDXID: SPDXRef-hal-gigadevice-sources
+PackageLicenseConcluded: NOASSERTION
+PackageLicenseDeclared: NOASSERTION
+PackageCopyrightText: NOASSERTION
+PrimaryPackagePurpose: SOURCE
+PackageDownloadLocation: git+https://github.com/zephyrproject-rtos/hal_gigadevice@2994b7dde8b0b0fa9b9c0ccb13474b6a486cddc3
+PackageVersion: 2994b7dde8b0b0fa9b9c0ccb13474b6a486cddc3
+FilesAnalyzed: false
+PackageComment: Utility target; no files
+
+##### Package: hal-infineon-sources
+
+PackageName: hal-infineon-sources
+SPDXID: SPDXRef-hal-infineon-sources
+PackageLicenseConcluded: NOASSERTION
+PackageLicenseDeclared: NOASSERTION
+PackageCopyrightText: NOASSERTION
+PrimaryPackagePurpose: SOURCE
+PackageDownloadLocation: git+https://github.com/zephyrproject-rtos/hal_infineon@9df9d40571b25171cb752459c6dd96bd83ec8570
+PackageVersion: 9df9d40571b25171cb752459c6dd96bd83ec8570
+FilesAnalyzed: false
+PackageComment: Utility target; no files
+
+##### Package: hal-intel-sources
+
+PackageName: hal-intel-sources
+SPDXID: SPDXRef-hal-intel-sources
+PackageLicenseConcluded: NOASSERTION
+PackageLicenseDeclared: NOASSERTION
+PackageCopyrightText: NOASSERTION
+PrimaryPackagePurpose: SOURCE
+PackageDownloadLocation: git+https://github.com/zephyrproject-rtos/hal_intel@0447cd22e74d7ca243653f21cfd6e38c016630c6
+PackageVersion: 0447cd22e74d7ca243653f21cfd6e38c016630c6
+FilesAnalyzed: false
+PackageComment: Utility target; no files
+
+##### Package: microchip-sources
+
+PackageName: microchip-sources
+SPDXID: SPDXRef-microchip-sources
+PackageLicenseConcluded: NOASSERTION
+PackageLicenseDeclared: NOASSERTION
+PackageCopyrightText: NOASSERTION
+PrimaryPackagePurpose: SOURCE
+PackageDownloadLocation: git+https://github.com/zephyrproject-rtos/hal_microchip@15ca19705e4bff2d147a2a13d0198fcf8e4c8b4a
+PackageVersion: 15ca19705e4bff2d147a2a13d0198fcf8e4c8b4a
+FilesAnalyzed: false
+PackageComment: Utility target; no files
+
+##### Package: hal-nordic-sources
+
+PackageName: hal-nordic-sources
+SPDXID: SPDXRef-hal-nordic-sources
+PackageLicenseConcluded: NOASSERTION
+PackageLicenseDeclared: NOASSERTION
+PackageCopyrightText: NOASSERTION
+PrimaryPackagePurpose: SOURCE
+PackageDownloadLocation: git+https://github.com/zephyrproject-rtos/hal_nordic@119ff5b5ec7a413ca2f64ae1928c79eee1e7b7b2
+PackageVersion: 119ff5b5ec7a413ca2f64ae1928c79eee1e7b7b2
+FilesAnalyzed: false
+PackageComment: Utility target; no files
+
+##### Package: nuvoton-sources
+
+PackageName: nuvoton-sources
+SPDXID: SPDXRef-nuvoton-sources
+PackageLicenseConcluded: NOASSERTION
+PackageLicenseDeclared: NOASSERTION
+PackageCopyrightText: NOASSERTION
+PrimaryPackagePurpose: SOURCE
+PackageDownloadLocation: git+https://github.com/zephyrproject-rtos/hal_nuvoton@be1042dc8a96ebe9ea4c5d714f07c617539106d6
+PackageVersion: be1042dc8a96ebe9ea4c5d714f07c617539106d6
+FilesAnalyzed: false
+PackageComment: Utility target; no files
+
+##### Package: hal-nxp-sources
+
+PackageName: hal-nxp-sources
+SPDXID: SPDXRef-hal-nxp-sources
+PackageLicenseConcluded: NOASSERTION
+PackageLicenseDeclared: NOASSERTION
+PackageCopyrightText: NOASSERTION
+PrimaryPackagePurpose: SOURCE
+PackageDownloadLocation: git+https://github.com/zephyrproject-rtos/hal_nxp@6b11d190e0092aafec81489d0e7045a3bcf80c60
+PackageVersion: 6b11d190e0092aafec81489d0e7045a3bcf80c60
+FilesAnalyzed: false
+PackageComment: Utility target; no files
+
+##### Package: openisa-sources
+
+PackageName: openisa-sources
+SPDXID: SPDXRef-openisa-sources
+PackageLicenseConcluded: NOASSERTION
+PackageLicenseDeclared: NOASSERTION
+PackageCopyrightText: NOASSERTION
+PrimaryPackagePurpose: SOURCE
+PackageDownloadLocation: git+https://github.com/zephyrproject-rtos/hal_openisa@eabd530a64d71de91d907bad257cd61aacf607bc
+PackageVersion: eabd530a64d71de91d907bad257cd61aacf607bc
+FilesAnalyzed: false
+PackageComment: Utility target; no files
+
+##### Package: quicklogic-sources
+
+PackageName: quicklogic-sources
+SPDXID: SPDXRef-quicklogic-sources
+PackageLicenseConcluded: NOASSERTION
+PackageLicenseDeclared: NOASSERTION
+PackageCopyrightText: NOASSERTION
+PrimaryPackagePurpose: SOURCE
+PackageDownloadLocation: git+https://github.com/zephyrproject-rtos/hal_quicklogic@bad894440fe72c814864798c8e3a76d13edffb6c
+PackageVersion: bad894440fe72c814864798c8e3a76d13edffb6c
+FilesAnalyzed: false
+PackageComment: Utility target; no files
+
+##### Package: hal-renesas-sources
+
+PackageName: hal-renesas-sources
+SPDXID: SPDXRef-hal-renesas-sources
+PackageLicenseConcluded: NOASSERTION
+PackageLicenseDeclared: NOASSERTION
+PackageCopyrightText: NOASSERTION
+PrimaryPackagePurpose: SOURCE
+PackageDownloadLocation: git+https://github.com/zephyrproject-rtos/hal_renesas@15c3f057d5715b78b0a2201314b07ad6d2dbd1b1
+PackageVersion: 15c3f057d5715b78b0a2201314b07ad6d2dbd1b1
+FilesAnalyzed: false
+PackageComment: Utility target; no files
+
+##### Package: hal-rpi-pico-sources
+
+PackageName: hal-rpi-pico-sources
+SPDXID: SPDXRef-hal-rpi-pico-sources
+PackageLicenseConcluded: NOASSERTION
+PackageLicenseDeclared: NOASSERTION
+PackageCopyrightText: NOASSERTION
+PrimaryPackagePurpose: SOURCE
+PackageDownloadLocation: git+https://github.com/zephyrproject-rtos/hal_rpi_pico@7b57b24588797e6e7bf18b6bda168e6b96374264
+PackageVersion: 7b57b24588797e6e7bf18b6bda168e6b96374264
+FilesAnalyzed: false
+PackageComment: Utility target; no files
+
+##### Package: hal-silabs-sources
+
+PackageName: hal-silabs-sources
+SPDXID: SPDXRef-hal-silabs-sources
+PackageLicenseConcluded: NOASSERTION
+PackageLicenseDeclared: NOASSERTION
+PackageCopyrightText: NOASSERTION
+PrimaryPackagePurpose: SOURCE
+PackageDownloadLocation: git+https://github.com/zephyrproject-rtos/hal_silabs@40a0237e4812241de677441e02131d6c75830636
+PackageVersion: 40a0237e4812241de677441e02131d6c75830636
+FilesAnalyzed: false
+PackageComment: Utility target; no files
+
+##### Package: hal-st-sources
+
+PackageName: hal-st-sources
+SPDXID: SPDXRef-hal-st-sources
+PackageLicenseConcluded: NOASSERTION
+PackageLicenseDeclared: NOASSERTION
+PackageCopyrightText: NOASSERTION
+PrimaryPackagePurpose: SOURCE
+PackageDownloadLocation: git+https://github.com/zephyrproject-rtos/hal_st@05fd4533730a9aea845261c5d24ed9832a6f0b6e
+PackageVersion: 05fd4533730a9aea845261c5d24ed9832a6f0b6e
+FilesAnalyzed: false
+PackageComment: Utility target; no files
+
+##### Package: hal-stm32-sources
+
+PackageName: hal-stm32-sources
+SPDXID: SPDXRef-hal-stm32-sources
+PackageLicenseConcluded: NOASSERTION
+PackageLicenseDeclared: NOASSERTION
+PackageCopyrightText: NOASSERTION
+PrimaryPackagePurpose: SOURCE
+PackageDownloadLocation: git+https://github.com/zephyrproject-rtos/hal_stm32@f467d8e039216b4f5f9b55dd8a1ffa8582fc516d
+PackageVersion: f467d8e039216b4f5f9b55dd8a1ffa8582fc516d
+FilesAnalyzed: false
+PackageComment: Utility target; no files
+
+##### Package: hal-tdk-sources
+
+PackageName: hal-tdk-sources
+SPDXID: SPDXRef-hal-tdk-sources
+PackageLicenseConcluded: NOASSERTION
+PackageLicenseDeclared: NOASSERTION
+PackageCopyrightText: NOASSERTION
+PrimaryPackagePurpose: SOURCE
+PackageDownloadLocation: git+https://github.com/zephyrproject-rtos/hal_tdk@6727477af1e46fa43878102489b9672a9d24e39f
+PackageVersion: 6727477af1e46fa43878102489b9672a9d24e39f
+FilesAnalyzed: false
+PackageComment: Utility target; no files
+
+##### Package: hal-telink-sources
+
+PackageName: hal-telink-sources
+SPDXID: SPDXRef-hal-telink-sources
+PackageLicenseConcluded: NOASSERTION
+PackageLicenseDeclared: NOASSERTION
+PackageCopyrightText: NOASSERTION
+PrimaryPackagePurpose: SOURCE
+PackageDownloadLocation: git+https://github.com/zephyrproject-rtos/hal_telink@4226c7fc17d5a34e557d026d428fc766191a0800
+PackageVersion: 4226c7fc17d5a34e557d026d428fc766191a0800
+FilesAnalyzed: false
+PackageComment: Utility target; no files
+
+##### Package: ti-sources
+
+PackageName: ti-sources
+SPDXID: SPDXRef-ti-sources
+PackageLicenseConcluded: NOASSERTION
+PackageLicenseDeclared: NOASSERTION
+PackageCopyrightText: NOASSERTION
+PrimaryPackagePurpose: SOURCE
+PackageDownloadLocation: git+https://github.com/zephyrproject-rtos/hal_ti@258652a3ac5d7df68ba8df20e4705c3bd98ede38
+PackageVersion: 258652a3ac5d7df68ba8df20e4705c3bd98ede38
+FilesAnalyzed: false
+PackageComment: Utility target; no files
+
+##### Package: hal-wch-sources
+
+PackageName: hal-wch-sources
+SPDXID: SPDXRef-hal-wch-sources
+PackageLicenseConcluded: NOASSERTION
+PackageLicenseDeclared: NOASSERTION
+PackageCopyrightText: NOASSERTION
+PrimaryPackagePurpose: SOURCE
+PackageDownloadLocation: git+https://github.com/zephyrproject-rtos/hal_wch@1de9d3e406726702ce7cfc504509a02ecc463554
+PackageVersion: 1de9d3e406726702ce7cfc504509a02ecc463554
+FilesAnalyzed: false
+PackageComment: Utility target; no files
+
+##### Package: hal-wurthelektronik-sources
+
+PackageName: hal-wurthelektronik-sources
+SPDXID: SPDXRef-hal-wurthelektronik-sources
+PackageLicenseConcluded: NOASSERTION
+PackageLicenseDeclared: NOASSERTION
+PackageCopyrightText: NOASSERTION
+PrimaryPackagePurpose: SOURCE
+PackageDownloadLocation: git+https://github.com/zephyrproject-rtos/hal_wurthelektronik@e3e2797b224fc48fdef1bc3e5a12a7c73108bba2
+PackageVersion: e3e2797b224fc48fdef1bc3e5a12a7c73108bba2
+FilesAnalyzed: false
+PackageComment: Utility target; no files
+
+##### Package: xtensa-sources
+
+PackageName: xtensa-sources
+SPDXID: SPDXRef-xtensa-sources
+PackageLicenseConcluded: NOASSERTION
+PackageLicenseDeclared: NOASSERTION
+PackageCopyrightText: NOASSERTION
+PrimaryPackagePurpose: SOURCE
+PackageDownloadLocation: git+https://github.com/zephyrproject-rtos/hal_xtensa@b38620c7cc61e349e192ed86a54940a5cd0636b7
+PackageVersion: b38620c7cc61e349e192ed86a54940a5cd0636b7
+FilesAnalyzed: false
+PackageComment: Utility target; no files
+
+##### Package: hostap-sources
+
+PackageName: hostap-sources
+SPDXID: SPDXRef-hostap-sources
+PackageLicenseConcluded: NOASSERTION
+PackageLicenseDeclared: NOASSERTION
+PackageCopyrightText: NOASSERTION
+PrimaryPackagePurpose: SOURCE
+PackageDownloadLocation: git+https://github.com/zephyrproject-rtos/hostap@fb6452c246b441434172235b2070259945ca9d44
+PackageVersion: fb6452c246b441434172235b2070259945ca9d44
+FilesAnalyzed: false
+PackageComment: Utility target; no files
+
+##### Package: liblc3-sources
+
+PackageName: liblc3-sources
+SPDXID: SPDXRef-liblc3-sources
+PackageLicenseConcluded: NOASSERTION
+PackageLicenseDeclared: NOASSERTION
+PackageCopyrightText: NOASSERTION
+PrimaryPackagePurpose: SOURCE
+PackageDownloadLocation: git+https://github.com/zephyrproject-rtos/liblc3@48bbd3eacd36e99a57317a0a4867002e0b09e183
+PackageVersion: 48bbd3eacd36e99a57317a0a4867002e0b09e183
+FilesAnalyzed: false
+PackageComment: Utility target; no files
+
+##### Package: libmctp-sources
+
+PackageName: libmctp-sources
+SPDXID: SPDXRef-libmctp-sources
+PackageLicenseConcluded: NOASSERTION
+PackageLicenseDeclared: NOASSERTION
+PackageCopyrightText: NOASSERTION
+PrimaryPackagePurpose: SOURCE
+PackageDownloadLocation: git+https://github.com/zephyrproject-rtos/libmctp@b97860e78998551af99931ece149eeffc538bdb1
+PackageVersion: b97860e78998551af99931ece149eeffc538bdb1
+FilesAnalyzed: false
+PackageComment: Utility target; no files
+
+##### Package: libmetal-sources
+
+PackageName: libmetal-sources
+SPDXID: SPDXRef-libmetal-sources
+PackageLicenseConcluded: NOASSERTION
+PackageLicenseDeclared: NOASSERTION
+PackageCopyrightText: NOASSERTION
+PrimaryPackagePurpose: SOURCE
+PackageDownloadLocation: git+https://github.com/zephyrproject-rtos/libmetal@14f519529a1e4a46aaea6826f5a41d99a3347276
+PackageVersion: 14f519529a1e4a46aaea6826f5a41d99a3347276
+FilesAnalyzed: false
+PackageComment: Utility target; no files
+
+##### Package: littlefs-sources
+
+PackageName: littlefs-sources
+SPDXID: SPDXRef-littlefs-sources
+PackageLicenseConcluded: NOASSERTION
+PackageLicenseDeclared: NOASSERTION
+PackageCopyrightText: NOASSERTION
+PrimaryPackagePurpose: SOURCE
+PackageDownloadLocation: git+https://github.com/zephyrproject-rtos/littlefs@ed0531d59ee37f5fb2762bcf2fc8ba4efaf82656
+PackageVersion: ed0531d59ee37f5fb2762bcf2fc8ba4efaf82656
+FilesAnalyzed: false
+PackageComment: Utility target; no files
+
+##### Package: loramac-node-sources
+
+PackageName: loramac-node-sources
+SPDXID: SPDXRef-loramac-node-sources
+PackageLicenseConcluded: NOASSERTION
+PackageLicenseDeclared: NOASSERTION
+PackageCopyrightText: NOASSERTION
+PrimaryPackagePurpose: SOURCE
+PackageDownloadLocation: git+https://github.com/zephyrproject-rtos/loramac-node@fb00b383072518c918e2258b0916c996f2d4eebe
+PackageVersion: fb00b383072518c918e2258b0916c996f2d4eebe
+FilesAnalyzed: false
+PackageComment: Utility target; no files
+
+##### Package: lvgl-sources
+
+PackageName: lvgl-sources
+SPDXID: SPDXRef-lvgl-sources
+PackageLicenseConcluded: NOASSERTION
+PackageLicenseDeclared: NOASSERTION
+PackageCopyrightText: NOASSERTION
+PrimaryPackagePurpose: SOURCE
+PackageDownloadLocation: git+https://github.com/zephyrproject-rtos/lvgl@1ed1ddd881c3784049a92bb9fe37c38c6c74d998
+PackageVersion: 1ed1ddd881c3784049a92bb9fe37c38c6c74d998
+FilesAnalyzed: false
+PackageComment: Utility target; no files
+
+##### Package: mbedtls-sources
+
+PackageName: mbedtls-sources
+SPDXID: SPDXRef-mbedtls-sources
+PackageLicenseConcluded: NOASSERTION
+PackageLicenseDeclared: NOASSERTION
+PackageCopyrightText: NOASSERTION
+PrimaryPackagePurpose: SOURCE
+PackageDownloadLocation: git+https://github.com/zephyrproject-rtos/mbedtls@5f889934359deccf421554c7045a8381ef75298f
+PackageVersion: 5f889934359deccf421554c7045a8381ef75298f
+FilesAnalyzed: false
+PackageComment: Utility target; no files
+
+##### Package: mcuboot-sources
+
+PackageName: mcuboot-sources
+SPDXID: SPDXRef-mcuboot-sources
+PackageLicenseConcluded: NOASSERTION
+PackageLicenseDeclared: NOASSERTION
+PackageCopyrightText: NOASSERTION
+PrimaryPackagePurpose: SOURCE
+PackageDownloadLocation: git+https://github.com/zephyrproject-rtos/mcuboot@20f98e0a975c24864872e0df5701eb1082e9c957
+PackageVersion: 20f98e0a975c24864872e0df5701eb1082e9c957
+FilesAnalyzed: false
+PackageComment: Utility target; no files
+
+##### Package: mipi-sys-t-sources
+
+PackageName: mipi-sys-t-sources
+SPDXID: SPDXRef-mipi-sys-t-sources
+PackageLicenseConcluded: NOASSERTION
+PackageLicenseDeclared: NOASSERTION
+PackageCopyrightText: NOASSERTION
+PrimaryPackagePurpose: SOURCE
+PackageDownloadLocation: git+https://github.com/zephyrproject-rtos/mipi-sys-t@33e5c23cbedda5ba12dbe50c4baefb362a791001
+PackageVersion: 33e5c23cbedda5ba12dbe50c4baefb362a791001
+FilesAnalyzed: false
+PackageComment: Utility target; no files
+
+##### Package: nrf-wifi-sources
+
+PackageName: nrf-wifi-sources
+SPDXID: SPDXRef-nrf-wifi-sources
+PackageLicenseConcluded: NOASSERTION
+PackageLicenseDeclared: NOASSERTION
+PackageCopyrightText: NOASSERTION
+PrimaryPackagePurpose: SOURCE
+PackageDownloadLocation: git+https://github.com/zephyrproject-rtos/nrf_wifi@eeceee739252cf2d56a5ad9356553d87aae8c57d
+PackageVersion: eeceee739252cf2d56a5ad9356553d87aae8c57d
+FilesAnalyzed: false
+PackageComment: Utility target; no files
+
+##### Package: open-amp-sources
+
+PackageName: open-amp-sources
+SPDXID: SPDXRef-open-amp-sources
+PackageLicenseConcluded: NOASSERTION
+PackageLicenseDeclared: NOASSERTION
+PackageCopyrightText: NOASSERTION
+PrimaryPackagePurpose: SOURCE
+PackageDownloadLocation: git+https://github.com/zephyrproject-rtos/open-amp@f7f4d083c7909a39d86e217376c69b416ec4faf3
+PackageVersion: f7f4d083c7909a39d86e217376c69b416ec4faf3
+FilesAnalyzed: false
+PackageComment: Utility target; no files
+
+##### Package: openthread-sources
+
+PackageName: openthread-sources
+SPDXID: SPDXRef-openthread-sources
+PackageLicenseConcluded: NOASSERTION
+PackageLicenseDeclared: NOASSERTION
+PackageCopyrightText: NOASSERTION
+PrimaryPackagePurpose: SOURCE
+PackageDownloadLocation: git+https://github.com/zephyrproject-rtos/openthread@3ae741f95e7dfb391dec35c48742862049eb62e8
+PackageVersion: 3ae741f95e7dfb391dec35c48742862049eb62e8
+FilesAnalyzed: false
+PackageComment: Utility target; no files
+
+##### Package: percepio-sources
+
+PackageName: percepio-sources
+SPDXID: SPDXRef-percepio-sources
+PackageLicenseConcluded: NOASSERTION
+PackageLicenseDeclared: NOASSERTION
+PackageCopyrightText: NOASSERTION
+PrimaryPackagePurpose: SOURCE
+PackageDownloadLocation: git+https://github.com/zephyrproject-rtos/percepio@49e6dc202aa38c2a3edbafcc2dab85dec6aee973
+PackageVersion: 49e6dc202aa38c2a3edbafcc2dab85dec6aee973
+FilesAnalyzed: false
+PackageComment: Utility target; no files
+
+##### Package: picolibc-sources
+
+PackageName: picolibc-sources
+SPDXID: SPDXRef-picolibc-sources
+PackageLicenseConcluded: NOASSERTION
+PackageLicenseDeclared: NOASSERTION
+PackageCopyrightText: NOASSERTION
+PrimaryPackagePurpose: SOURCE
+PackageDownloadLocation: git+https://github.com/zephyrproject-rtos/picolibc@82d62ed1ac55b4e34a12d0390aced2dc9af13fc9
+PackageVersion: 82d62ed1ac55b4e34a12d0390aced2dc9af13fc9
+FilesAnalyzed: false
+PackageComment: Utility target; no files
+
+##### Package: segger-sources
+
+PackageName: segger-sources
+SPDXID: SPDXRef-segger-sources
+PackageLicenseConcluded: NOASSERTION
+PackageLicenseDeclared: NOASSERTION
+PackageCopyrightText: NOASSERTION
+PrimaryPackagePurpose: SOURCE
+PackageDownloadLocation: git+https://github.com/zephyrproject-rtos/segger@cf56b1d9c80f81a26e2ac5727c9cf177116a4692
+PackageVersion: cf56b1d9c80f81a26e2ac5727c9cf177116a4692
+FilesAnalyzed: false
+PackageComment: Utility target; no files
+
+##### Package: tinycrypt-sources
+
+PackageName: tinycrypt-sources
+SPDXID: SPDXRef-tinycrypt-sources
+PackageLicenseConcluded: NOASSERTION
+PackageLicenseDeclared: NOASSERTION
+PackageCopyrightText: NOASSERTION
+PrimaryPackagePurpose: SOURCE
+PackageDownloadLocation: git+https://github.com/zephyrproject-rtos/tinycrypt@1012a3ebee18c15ede5efc8332ee2fc37817670f
+PackageVersion: 1012a3ebee18c15ede5efc8332ee2fc37817670f
+FilesAnalyzed: false
+PackageComment: Utility target; no files
+
+##### Package: trusted-firmware-a-sources
+
+PackageName: trusted-firmware-a-sources
+SPDXID: SPDXRef-trusted-firmware-a-sources
+PackageLicenseConcluded: NOASSERTION
+PackageLicenseDeclared: NOASSERTION
+PackageCopyrightText: NOASSERTION
+PrimaryPackagePurpose: SOURCE
+PackageDownloadLocation: git+https://github.com/zephyrproject-rtos/trusted-firmware-a@713ffbf96c5bcbdeab757423f10f73eb304eff07
+PackageVersion: 713ffbf96c5bcbdeab757423f10f73eb304eff07
+FilesAnalyzed: false
+PackageComment: Utility target; no files
+
+##### Package: trusted-firmware-m-sources
+
+PackageName: trusted-firmware-m-sources
+SPDXID: SPDXRef-trusted-firmware-m-sources
+PackageLicenseConcluded: NOASSERTION
+PackageLicenseDeclared: NOASSERTION
+PackageCopyrightText: NOASSERTION
+PrimaryPackagePurpose: SOURCE
+PackageDownloadLocation: git+https://github.com/zephyrproject-rtos/trusted-firmware-m@857f3697ece6f44a663f007de71205a7b34974ef
+PackageVersion: 857f3697ece6f44a663f007de71205a7b34974ef
+FilesAnalyzed: false
+PackageComment: Utility target; no files
+
+##### Package: uoscore-uedhoc-sources
+
+PackageName: uoscore-uedhoc-sources
+SPDXID: SPDXRef-uoscore-uedhoc-sources
+PackageLicenseConcluded: NOASSERTION
+PackageLicenseDeclared: NOASSERTION
+PackageCopyrightText: NOASSERTION
+PrimaryPackagePurpose: SOURCE
+PackageDownloadLocation: git+https://github.com/zephyrproject-rtos/uoscore-uedhoc@54abc109c9c0adfd53c70077744c14e454f04f4a
+PackageVersion: 54abc109c9c0adfd53c70077744c14e454f04f4a
+FilesAnalyzed: false
+PackageComment: Utility target; no files
+
+##### Package: zcbor-sources
+
+PackageName: zcbor-sources
+SPDXID: SPDXRef-zcbor-sources
+PackageLicenseConcluded: NOASSERTION
+PackageLicenseDeclared: NOASSERTION
+PackageCopyrightText: NOASSERTION
+PrimaryPackagePurpose: SOURCE
+PackageDownloadLocation: git+https://github.com/zephyrproject-rtos/zcbor@9b07780aca6fb21f82a241ba386ad9b379809337
+PackageVersion: 9b07780aca6fb21f82a241ba386ad9b379809337
+FilesAnalyzed: false
+PackageComment: Utility target; no files
+
+##### Package: nrf-hw-models-sources
+
+PackageName: nrf-hw-models-sources
+SPDXID: SPDXRef-nrf-hw-models-sources
+PackageLicenseConcluded: NOASSERTION
+PackageLicenseDeclared: NOASSERTION
+PackageCopyrightText: NOASSERTION
+PrimaryPackagePurpose: SOURCE
+PackageDownloadLocation: git+https://github.com/zephyrproject-rtos/nrf_hw_models@fe4ff0e191a52de4f85ecc3475f0253eca6fc5bf
+PackageVersion: fe4ff0e191a52de4f85ecc3475f0253eca6fc5bf
+FilesAnalyzed: false
+PackageComment: Utility target; no files
+

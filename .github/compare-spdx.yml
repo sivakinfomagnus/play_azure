@@ -1,0 +1,40 @@
+name: Compare SPDX Docs
+
+on:
+  push:
+    branches:
+      - spdx  
+
+jobs:
+  compare-spdx:
+    runs-on: ubuntu-latest
+
+    defaults:
+      run:
+        working-directory: spdx
+
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v3
+
+      - name: Set up Java
+        uses: actions/setup-java@v4
+        with:
+          distribution: 'temurin'
+          java-version: '17'  
+
+      - name: Download SPDX Tools
+        run: |
+          curl -LO https://github.com/spdx/tools-java/releases/download/v2.0.0/tools-java-2.0.0.zip
+          unzip tools-java-2.0.0.zip
+
+      - name: Run SPDX CompareDocs
+        run: |
+          java -jar tools-java-2.0.0/tools-java-2.0.0-RC3-SNAPSHOT-jar-with-dependencies.jar \
+            CompareDocs spdx_compare_out.xlsx zephyr.spdx zephyr2.spdx
+
+      - name: Upload comparison result
+        uses: actions/upload-artifact@v4
+        with:
+          name: spdx-comparison-output
+          path: tests/sample_spdx/spdx_compare_out.xlsx
