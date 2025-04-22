@@ -40,4 +40,4 @@ jobs:
         uses: actions/upload-artifact@v4
         with:
           name: spdx-comparison-output
-          path: tests/sample_spdx/spdx_compare_out.xlsx
+          path: spdx/spdx_compare_out.xlsx
