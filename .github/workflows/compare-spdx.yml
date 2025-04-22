@@ -32,9 +32,8 @@ jobs:
         run: |
           pwd
           ls -al
-          ls -al tools-java-2.0.0
-          ls -al tools-java-2.0.0/tools-java-2.0.0-RC3-SNAPSHOT-jar-with-dependencies.jar
-          java -jar tools-java-2.0.0/tools-java-2.0.0-RC3-SNAPSHOT-jar-with-dependencies.jar \
+          ls -al tools-java-2.0.0-RC3-SNAPSHOT-jar-with-dependencies.jar
+          java -jar tools-java-2.0.0-RC3-SNAPSHOT-jar-with-dependencies.jar \
             CompareDocs spdx_compare_out.xlsx zephyr.spdx zephyr2.spdx
 
       - name: Upload comparison result
